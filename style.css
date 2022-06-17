@@ -1,0 +1,291 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+header {
+    background: rgb(227, 12, 12);
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    height: 30px;
+    padding: 10px;
+}
+
+h3 {
+    color: red;
+}
+
+article {
+    width: 100%;
+    margin: auto;
+    float: left;
+}
+
+.menu {
+    text-align: center;
+    padding: 0;
+    background: rgb(239, 7, 7);
+    width: 100%;
+    margin: auto;
+}
+
+.menu,
+li,
+a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+
+.contenedor {
+    width: 100%;
+    margin: auto;
+    float: left;
+    height: 1600px;
+    background-color: #e96c6c;
+}
+
+.p1,
+.p2 {
+    border-radius: 10px;
+    background-color: #fff;
+    text-align: center;
+    width: 250px;
+    height: 430px;
+    /*display: block;*/
+    margin: auto;
+    margin: 20px;
+    float: left;
+    padding: 30px;
+}
+
+img {
+    display: auto;
+}
+
+img:hover {
+    transform: scale(1.15);
+}
+
+.button {
+    background-color: #131415;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px 0 rgba(184, 227, 11, 0.2), 0 6px 20px 0 rgba(204, 218, 9, 0.19);
+}
+
+.pie-pagina {
+    width: 100%;
+    background-color: rgb(232, 10, 10);
+}
+
+.pie-pagina .grupo-1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+
+.pie-pagina .grupo-1 .box figure {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie-pagina .grupo-1 .box figure img {
+    width: 250px;
+}
+
+.pie-pagina .grupo-1 .box h2 {
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.pie-pagina .grupo-1 .box p {
+    color: #db5959;
+    margin-bottom: 10px;
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+    margin: 0%;
+}
+
+div.footer {
+    background: rgb(234, 10, 10);
+    display: flex;
+    width: 100%;
+    height: 50 px;
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+div.footer ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 10px;
+    text-align: center;
+    height: 100px;
+}
+
+div.footer ul li a {
+    display: block;
+    padding: 0 10px;
+    color: rgb(19, 17, 17);
+    line-height: 100px;
+    font-size: 50px
+}
+
+div.footer ul li .fb:hover {
+    color: #5233ff;
+}
+
+div.footer ul li .yt:hover {
+    color: #e7393e;
+}
+
+div.footer ul li .ins:hover {
+    color: #f023ed;
+}
+
+div.footer ul li .ws:hover {
+    color: #1fd33d;
+}
+
+.pie-pagina .grupo-2 {
+    background-color: #0a1a2a;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+
+.pie-pagina .grupo-2 small {
+    font-size: 15px;
+}
+
+@media screen and (max-width:800px) {
+    .pie-pagina .grupo-1 {
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
+    }
+}
+
+table {
+    background-color: #d35252;
+    text-align: center;
+    width: 1350px;
+    height: 150px;
+    /*display: block;*/
+    margin: auto;
+    margin: 20px;
+}
+
+.container-circulos {
+    /* display:flex; */
+    width: 100%;
+    padding: 20px;
+}
+
+.container-imagen {
+    width: 33%;
+    display: inline-block;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+}
+
+.container-imagen h2 {
+    font-weight: 600;
+}
+
+.circulo {
+    width: 80%;
+    border-radius: 60%;
+    border: 2px solid rgb(235, 12, 31);
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.container {
+    width: 1450px;
+    height: 700px;
+    border: 1px solid;
+    background-color: rgb(206, 59, 59);
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    justify-content: space-around;
+}
+
+.first-row {
+    display: flex;
+}
+
+.owner {
+    width: 100%;
+    margin-right: 40px;
+}
+
+.input-field {
+    border: 1px solid rgb(197, 246, 1);
+}
+
+.input-field input {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 10px;
+}
+
+.selection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.selection select {
+    padding: 10px 20px;
+}
+
+.cards img {
+    width: 100px;
+}
+
+
+/*
+    .fiel{
+        border: 3px pink;
+    }
+    legend{
+        text-align: center;
+        color:black ;
+        font-size: 35px;
+    }
+    th{
+        color: #000;
+        margin:10px;
+    }
+
+    td{
+        color: #000;
+        margin: 10;
+    }
